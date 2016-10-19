@@ -2,6 +2,7 @@
 
 namespace TestService
 {
+    [TestBehavior]
     public class TestService : ITestService
     {
         public string hola()
